@@ -1,0 +1,1 @@
+Goal of this exercise is to create the google homepage from scratch
