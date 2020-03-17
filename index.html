@@ -4,17 +4,17 @@
     </header>
     <body>
         <div class="navbar">
-            <ul class="nav-left">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Store</a></li>
-            </ul>
+            <div class="nav-left">
+                <a href="#">About</a>
+                <a href="#">Store</a>
+            </div>
             
-            <ul class="nav-right">
-                <li><a href="#">Gmail</a></li>
-                <li><a href="#">Images</a></li>
-                <li><a href="#"><img alt="googleapp_logo" src="https://image.flaticon.com/icons/png/512/60/60991.png"></a></li>
-                <li><a href="#" style="color: white;" id="mylogo">d</a></li>
-            </ul>
+            <div class="nav-right">
+                <a href="#">Gmail</a>
+                <a href="#">Images</a>
+                <a href="#"><img alt="googleapp_logo" src="https://image.flaticon.com/icons/png/512/60/60991.png"></a>
+                <a href="#" style="color: white;" id="mylogo">d</a></li>
+            </div>
         </div>
 
          
@@ -59,6 +59,7 @@
     .navbar{
         position: relative;
         display: flex;
+        flex-direction: row;
         width: 100%;
         justify-content: space-between;
         top: 10px;
@@ -66,14 +67,11 @@
        
     }
     
-    li{
-        display: inline-block;
-        margin: 10px;
-    }
-
-    a{
-        text-decoration: none;
+    .navbar a{
+        padding: 10px;
+        font-size: 13px;
         color: black;
+
     }
 
 
@@ -119,6 +117,7 @@
     .footer a{
         color: #818381;
         padding: 10px;
+        font-size: 13px;
     }
 
 </style>
